@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Entendendo a criação de tabelas</h1>
+    <table border="1" width="500">
+        
+         <thead>
+             <tr>
+                 <td colspan="2">Lista de Alunos</td>
+                 <td>1º semestre 2022</td>
+             </tr>
+              <tr>
+                  <th>Nome do Aluno</th>
+                  <th>Curso</th>
+                  <th>Cidade</th>
+              </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>João</td>
+                 <td>ADS</td>
+                 <td>Porto Alegre</td>
+             </tr>
+             <tr>
+                <td>Robert</td>
+                <td>SPI</td>
+                <td rowspan="2">Canoas</td>
+             </tr>
+             <tr>
+                 <td>ADS</td>
+             </tr>
+             <tr>
+                 <td>Hanry</td>
+                 <td></td>
+                 <td>Porto Alegre</td>
+             </tr>
+         </tbody>
+         <tfoot>
+             <tr>
+                 <td colspan="3">Alunos Matriculados em 2022</td>
+             </tr>
+         </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    font-family:  Arial, sans-serif;
+}
+h1 {
+    font-size: 48px;
+    font-family: tahoma, Arial, sans-serif;
+    font-style: oblique;
+    line-height: ;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f60;
+    text-decoration: underline;
+}
+
+p{
+    font-weight: bold;
+    
+}
